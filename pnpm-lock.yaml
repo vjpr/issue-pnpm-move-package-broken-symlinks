@@ -1,12 +1,21 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
+
+  .: {}
+
   packages/group1/foo:
     dependencies:
-      lodash: 4.17.15
-    specifiers:
-      lodash: ^4.17.15
-lockfileVersion: 5.1
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
+
 packages:
-  /lodash/4.17.15:
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
-    resolution:
-      integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
